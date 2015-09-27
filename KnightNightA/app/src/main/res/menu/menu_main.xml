@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/exit_the_app"
+        android:title="@string/action_exit"
+        app:showAsAction="ifRoom|withText"
+        android:orderInCategory="101" />
+
+    <item android:id="@+id/action_search"
+        android:icon="@drawable/crescentmoon"
+        android:title="Menu"/>
+    <item android:id="@+id/statistics"
+        android:title="Stats"/>
+    <item android:id="@+id/Activitylog"
+        android:icon="@drawable/crescentmoon"
+        android:title="About"/>
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
